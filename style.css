@@ -1,0 +1,31 @@
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.hero {
+	background-color: rgb(153, 217, 234);
+	height: 200px;
+}
+
+.container {
+	display: flex;
+}
+
+.title {
+	font-family: "Courier New", sans-serif;
+	width: 350px;
+	background-color: rgba(153, 217, 234, .4);
+	text-align: center;
+}
+
+.section {
+	width: 350px;
+}

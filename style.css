@@ -64,21 +64,42 @@ h1 {
 	background-color: #ba000d;
 }
 
+.menu {
+	height: 300px;
+}
+
 .menu > ul {
+	padding: 0 20px;
+	position: relative;
 	list-style: none;
 	display: flex;
 }
 
 .menu > ul > li {
 	padding: 10px 20px;
-	background-color: rgb(73, 162, 218);
-	color: #fff;
+	background-color: #fff;
+	color: rgb(100, 100, 100);
 	font-weight: 600;
 	font-family: "Roboto", sans-serif;
 	cursor: pointer;
 }
 
 .menu > ul > li:hover {
-	background-color: #fff;
-	color: #000;
+	background-color: rgb(73, 162, 218); 
+	color: #fff; 
 }
+
+.menu > ul > li > .content {
+	position: absolute;
+	left: 0px;
+	top: 38px;
+	height: 300px;
+	width: 100%;
+	display: none;
+	background-color: rgb(73, 162, 218);
+}
+
+.menu > ul > li:hover  > .content {
+	display: block;
+}
+
